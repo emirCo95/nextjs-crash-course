@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Page = () => {
-  return <div>Welcome to Next.js!</div>;
+  return <h1>Welcome to Next.js!</h1>;
 };
 
 export default Page;
