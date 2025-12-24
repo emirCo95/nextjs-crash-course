@@ -1,7 +1,7 @@
-import React from 'react';
+'use client';
 
 const ExploreBtn = () => {
-  return <button>ExploreBtn</button>;
+  return <button onClick={() => console.log('Clicked!')}>ExploreBtn</button>;
 };
 
 export default ExploreBtn;
