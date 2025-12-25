@@ -2,8 +2,22 @@ import EventCard from '@/components/EventCard';
 import ExploreBtn from '@/components/ExploreBtn';
 
 const events = [
-  { image: '/images/event1.png', title: 'Event 1' },
-  { image: '/images/event2.png', title: 'Event 2' },
+  {
+    image: '/images/event1.png',
+    title: 'Event 1',
+    slug: 'event1',
+    location: 'location-1',
+    date: 'Date-1',
+    time: 'Time-1',
+  },
+  {
+    image: '/images/event2.png',
+    title: 'Event 2',
+    slug: 'event2',
+    location: 'location-2',
+    date: 'Date-2',
+    time: 'Time-2',
+  },
 ];
 
 const Page = () => {
