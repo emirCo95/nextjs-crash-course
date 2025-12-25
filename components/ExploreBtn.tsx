@@ -7,7 +7,7 @@ const ExploreBtn = () => {
     <button
       type="button"
       id="explore-btn"
-      className="mt-7 mx-auto"
+      className="mt-7 mx-auto  text-white"
       onClick={() => console.log('Clicked!')}
     >
       <a href="#events">

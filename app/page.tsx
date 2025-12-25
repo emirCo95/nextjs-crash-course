@@ -1,5 +1,4 @@
 import ExploreBtn from '@/components/ExploreBtn';
-import React from 'react';
 
 const Page = () => {
   return (
