@@ -10,7 +10,7 @@ interface Props {
   time: string;
 }
 
-const EventCard = ({ title, image }: Props) => {
+const EventCard = ({ title, image, slug, location, date, time }: Props) => {
   return (
     <Link href="/events" id="event-card">
       <Image
