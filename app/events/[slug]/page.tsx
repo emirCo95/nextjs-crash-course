@@ -116,14 +116,14 @@ const EventDetailsPage = async ({
             />
           </section>
 
-          <EventAgenda agendaItems={JSON.parse(event.agenda[0])} />
+          <EventAgenda agendaItems={event.agenda} />
 
           <section className="flex-col-gap-2">
             <h2>About The Organizer</h2>
             <p>{event.organizer}</p>
           </section>
 
-          <EventTags tags={JSON.parse(event.tags[0])} />
+          <EventTags tags={event.tags} />
         </div>
         {/* Right Side = Booking Form */}
         <aside className="booking">
