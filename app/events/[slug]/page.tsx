@@ -1,4 +1,6 @@
 import BookEvent from '@/components/BookEvent';
+import { IEvent } from '@/database';
+import { getSimilarEventsBySlug } from '@/lib/actions/event.actions';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
 
@@ -58,6 +60,8 @@ const EventDetailsPage = async ({
   }
 
   const bookings = 10;
+
+  const similarEvents: IEvent[] = await getSimilarEventsBySlug(slug);
 
   return (
     <section id="event">
