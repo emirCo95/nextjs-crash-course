@@ -139,7 +139,7 @@ const EventDetailsPage = async ({
               </p>
             )}
 
-            <BookEvent />
+            <BookEvent eventId={event._id} slug={event.slug} />
           </div>
         </aside>
       </div>
